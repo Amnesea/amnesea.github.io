@@ -1,2 +1,4 @@
 # amnesea.github.io
-Evermorphing Ocean
+An Ever-morphing Ocean
+
+<img src="images/AMNESEA Banner.png"></img>
