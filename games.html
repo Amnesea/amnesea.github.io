@@ -94,7 +94,7 @@
 
     <!-- Header -->
     <header id="header" style="text-align: center">
-        <h1 style="font-size: 10vw">games</h1>
+        <!-- <h1 style="font-size: 10vw">games</h1> -->
         <hr>
         <a href="https://agrmayank.itch.io/timebound/" target="_blank">
             <img src="images/TimeBound Title.png" alt="TimeBound" style="max-width: 90%; max-height: 160px;"></a>
@@ -130,8 +130,11 @@
             </li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Amnesea.</li>
-            <li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Amnesea | Theme by: <a href="http://html5up.net">HTML5 UP</a>
+            </li>
         </ul>
     </footer>
 

@@ -584,7 +584,7 @@ pre code {
 hr {
   border: 0;
   border-bottom: solid 2px rgba(255, 255, 255, 0.35);
-  margin: 2em 0;
+  margin: 0 48px;
 }
 
 hr.major {
