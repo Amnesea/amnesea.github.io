@@ -460,7 +460,6 @@ a {
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
   color: #ddf2ff;
   text-decoration: none;
 }
@@ -469,6 +468,7 @@ a:hover {
   border-bottom-color: transparent;
   color: #ddf2ff !important;
   text-decoration: none;
+  border-bottom: dotted 8px rgba(255, 255, 255, 0.1);
 }
 
 strong,
@@ -706,7 +706,8 @@ ul.icons {
 }
 
 ul.icons li {
-  display: inline-block;
+  display: inline;
+  float: left;
   padding: 0 1em 0 0;
 }
 
@@ -1300,5 +1301,20 @@ button:disabled,
     left: auto;
     margin: 1em 0 0 0;
     position: relative;
+  }
+}
+
+/* Circular rotation */
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
   }
 }
