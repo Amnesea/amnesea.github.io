@@ -16428,3 +16428,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     transform: perspective(2500px) rotateX(0);
   }
 }
+
+/* Custom CSS */
+
+.auto-resizable-iframe iframe {
+  height: 27vh;
+  width: 100%;
+  object-fit: fill;
+  position: absolute;
+}
