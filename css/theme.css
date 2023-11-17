@@ -539,6 +539,17 @@ button:not(:disabled),
   border-style: none;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: var(--bs-gray-600);
+}
+
+::selection {
+  color: black;
+  background: var(--bs-gray-600);
+}
+
 textarea {
   resize: vertical;
 }
