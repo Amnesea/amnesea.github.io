@@ -550,6 +550,11 @@ button:not(:disabled),
   background: var(--bs-gray-600);
 }
 
+/* CURSOR */
+body {
+  cursor: url(/img/Light_Cursor.svg), default;
+}
+
 textarea {
   resize: vertical;
 }
