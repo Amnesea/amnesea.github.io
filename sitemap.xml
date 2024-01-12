@@ -26,6 +26,11 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
+		<loc>https://amnesea.com/pitchdeck.html</loc>
+		<lastmod>2024-01-13T08:49:43+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
 		<loc>https://amnesea.com/404.html</loc>
 		<lastmod>2023-11-07T08:49:43+01:00</lastmod>
 		<priority>1.0</priority>
