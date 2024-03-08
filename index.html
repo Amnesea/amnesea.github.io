@@ -129,44 +129,55 @@
 <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
   <nav id="navScroll" class="navbar navbar-dark bg-black fixed-top px-vw-5" tabindex="0">
     <div class="container">
-      <!-- <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-                  <span class="ms-md-1 mt-1 fw-bolder me-md-5">amnesea</span>
-              </a> -->
+        <!-- <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+                <span class="ms-md-1 mt-1 fw-bolder me-md-5">amnesea</span>
+            </a> -->
 
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="games.html" aria-label="Our Games">
-            Games
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="about.html" aria-label="About Us">
-            About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="contact.html" aria-label="Contact Us">
-            Contact
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-5" href="pitchdeck.html" aria-label="Pitch Deck">
-            Pitchdeck
-          </a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+            <li class="nav-item">
+                <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
+                    Home
+                </a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link fs-5" href="games.html" aria-label="Our Games">
+                    Games
+                </a>
+            </li> -->
+            <li class="nav-item dropdown dropdown-hover"> <!-- Added 'dropdown' class -->
+                <a class="nav-link fs-5 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Games <!-- Changed the label to indicate it's a dropdown -->
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="keybound.html">Keybound</a></li> <!-- First option -->
+                    <li><a class="dropdown-item" href="timebound.html">Timebound</a></li> <!-- Second option -->
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-5" href="about.html" aria-label="About Us">
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                
+                <a class="nav-link fs-5" href="contact.html" aria-label="Contact Us">
+                    Contact
+                </a>
+            
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-5" href="pitchdeck.html" aria-label="Pitch Deck">
+                    Pitchdeck
+                </a>
+            </li>
+        </ul>
 
-      <!-- <a href="https://templatedeck.com/klar-html-template.html" aria-label="Download this template"
-                  class="btn btn-outline-light">
-                  <small>Download Template</small>
-              </a> -->
+        <!-- <a href="https://templatedeck.com/klar-html-template.html" aria-label="Download this template"
+                class="btn btn-outline-light">
+                <small>Download Template</small>
+            </a> -->
     </div>
-  </nav>
+</nav>
 
   <main>
     <!-- Main -->
@@ -206,6 +217,94 @@
       </div>
     </div>
 
+
+    <!-- Games -->
+    <div class="bg-dark">
+      <h1 class="lead" style="
+      font-weight: 500;
+      font-size: max(3.2vw, 50px);  
+      text-align: center;
+      padding-top: 20px;
+    ">
+                Games
+    </h1>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- KeyBound Card -->
+        <div class="col-md-6">
+          <a href="keybound.html" class="card-link d-flex justify-content-center align-items-center"
+            style="text-decoration: none;">
+            <div class="card bg-transparent text-center text-white" style="transition: transform 0.3s ease-in-out;">
+
+              <div class="card-body text-center text-white" style="transition: transform 0.3s ease-in-out;">
+                <!-- KeyBound content goes here -->
+                <!-- You can copy the content from the original KeyBound section -->
+    
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7">
+                      <a href="img/games/KeyBound/KeyBound Cover.gif" data-lightbox="KeyBound" data-title="KeyBound Cover">
+                        <img src="img/games/KeyBound/KeyBound Cover Compressed.gif" width="1116" height="848"
+                          alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up"
+                          style="max-width: 100%;" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 text-center" style="padding: 10px;">
+                <a href="keybound.html"
+                  class="btn btn-xl btn-dark">Keybound
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>  
+            </div>
+          </a>
+        </div>
+
+          <!-- TimeBound Card -->
+          <div class="col-md-6">
+            <a href="timebound.html" class="card-link d-flex justify-content-center align-items-center"
+              style="text-decoration: none;">
+              <div class="card bg-transparent text-center text-white" style="transition: transform 0.3s ease-in-out;">
+
+                <div class="card-body text-center text-white" style="transition: transform 0.3s ease-in-out;">
+                  <!-- Timebound content goes here -->
+                  <!-- You can copy the content from the original Timebound section -->
+          
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-lg-7">
+                        <a href="img/games/TimeBound/TimeBound Cover.gif" data-lightbox="TimeBound" data-title="TimeBound Cover">
+                          <img src="img/games/TimeBound/TimeBound Cover Compressed.gif" width="1116" height="848"
+                            alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up"
+                            style="max-width: 100%;" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center" style="padding: 10px;">
+                  <a href="timebound.html"
+                    class="btn btn-xl btn-dark">Timebound
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                  </a>
+                </div>  
+              </div>
+            </a>
+          </div>
+          
+          </div>
+          </div>
+          </div>
     <!-- People -->
 
     <!-- <div class="bg-black position-relative">
