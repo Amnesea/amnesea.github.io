@@ -6,15 +6,16 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <!-- Newsletter -->
-            <div class="bg-black">
-                <div class="container px-vw-5 py-vh-4">
+
+            <div class="bg-dark">
+                <div class="container px-vw-5 py-vh-2">
                     <div class="row d-flex align-items-center">
                         <div class="col-12 col-lg-5 text-center text-lg-end" data-aos="zoom-in-right">
                             <span class="h5 text-secondary fw-lighter">Enter the Matrix (and Your Inbox)</span>
                             <br /><br />
-                            <h2 class="display-4">Dive into Our Newsletter!</h2>
+                            <h2 class="display-4">Dive <br> Into Our <br> Newsletter!</h2>
                         </div>
-                        <div class="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
+                        <div class="col-12 col-lg-7 bg-black rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
                             <!-- <h2 class="display-huge mb-5">
                             <span class="fs-4 me-2 fw-light">$</span><span class="border-bottom border-5">499</span><span
                                 class="fs-6 fw-light">/day</span>
@@ -38,7 +39,10 @@ class Footer extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <div class="container py-vh-1 text-secondary fw-lighter">
+
+            <!-- Footer -->
+
+            <div class="container py-vh-3 text-secondary fw-lighter">
                 <div class="row">
                     <div class="col-12 col-lg-5 py-4 text-center text-lg-start">
                     <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
@@ -67,26 +71,33 @@ class Footer extends HTMLElement {
                         <li class="nav-item">
                         <a href="contact.html" class="link-fancy link-fancy-light">Contact</a>
                         </li>
+                        <li class="nav-item">
+                        <a href="pitchdeck.html" class="link-fancy link-fancy-light">Pitchdeck</a>
+                        </li>
                     </ul>
                     </div>
                     <div class="col border-start border-dark">
                     <span class="h6">Games</span>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <a href="https://agrmayank.itch.io/shapebound" target="_blank" rel="noopener"
-                            class="link-fancy link-fancy-light">ShapeBound</a>
-                        </li>
-                        <li class="nav-item">
                         <a href="https://agrmayank.itch.io/keybound" target="_blank" rel="noopener"
                             class="link-fancy link-fancy-light">KeyBound</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="https://agrmayank.itch.io/timebound" target="_blank" rel="noopener"
+                            class="link-fancy link-fancy-light">TimeBound</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="https://agrmayank.itch.io/shapebound" target="_blank" rel="noopener"
+                            class="link-fancy link-fancy-light">ShapeBound</a>
                         </li>
                         <li class="nav-item">
                         <a href="https://agrmayank.itch.io/retrobellion" target="_blank" rel="noopener"
                             class="link-fancy link-fancy-light">RetroBellion</a>
                         </li>
                         <li class="nav-item">
-                        <a href="https://agrmayank.itch.io/timebound" target="_blank" rel="noopener"
-                            class="link-fancy link-fancy-light">TimeBound</a>
+                        <a href="https://akamaestro.itch.io/atomica" target="_blank" rel="noopener"
+                            class="link-fancy link-fancy-light">Atomica</a>
                         </li>
                     </ul>
                     </div>
