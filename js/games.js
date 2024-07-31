@@ -81,8 +81,8 @@ class Games extends HTMLElement {
             <div class="container px-vw-5 py-vh-5">
                 <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
-                    <a href="img/games/Atomica/Atomica Gameplay GIF Optimised.gif" data-lightbox="TimeBound" data-title="TimeBound Cover">
-                    <img src="img/games/Atomica/Atomica Gameplay GIF Optimised.gif" width="2280" height="1732"
+                    <a href="img/games/Atomica/Atomica Banner GIF.gif" data-lightbox="TimeBound" data-title="TimeBound Cover">
+                    <img src="img/games/Atomica/Atomica Banner GIF.gif" width="2280" height="1732"
                         alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
                     </a>
                 </div>
