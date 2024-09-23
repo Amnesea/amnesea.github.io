@@ -17,20 +17,20 @@ class Header extends HTMLElement {
                         Home
                     </a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link fs-5" href="games.html" aria-label="Our Games">
                             Games
                         </a>
-                    </li> -->
-                    <li class="nav-item dropdown dropdown-hover"> <!-- Added 'dropdown' class -->
+                    </li>
+                    <!-- <li class="nav-item dropdown dropdown-hover">
                     <a class="nav-link fs-5 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Games <!-- Changed the label to indicate it's a dropdown -->
+                        Games
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" a>
-                        <li><a class="dropdown-item" href="keybound.html">KeyBound</a></li> <!-- First option -->
-                        <li><a class="dropdown-item" href="timebound.html">TimeBound</a></li> <!-- Second option -->
-                    </ul>
+                        <li><a class="dropdown-item" href="keybound.html">KeyBound</a></li>
+                        <li><a class="dropdown-item" href="timebound.html">TimeBound</a></li>
+                    </ul> -->
                     </li>
                     <li class="nav-item">
                     <a class="nav-link fs-5" href="about.html" aria-label="About Us">

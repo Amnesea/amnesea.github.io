@@ -28,7 +28,7 @@ class Games extends HTMLElement {
                     <hr />
                     <br />
 
-                    <a href="keybound.html" class="btn btn-xl btn-light">Visit Website
+                    <a href="keybound.html" class="btn btn-xl btn-light">View Details
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -63,7 +63,42 @@ class Games extends HTMLElement {
                     <hr />
                     <br />
 
-                    <a href="timebound.html" class="btn btn-xl btn-light">Visit Website
+                    <a href="timebound.html" class="btn btn-xl btn-light">View Details
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- TileBound -->
+
+            <div class="bg-dark">
+            <div class="container px-vw-5 py-vh-5">
+                <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+                    <a href="img/games/TileBound/TileBound Banner.png" data-lightbox="TileBound" data-title="TileBound Cover">
+                    <img src="img/games/TileBound/TileBound Banner.png" width="2280" height="1732"
+                        alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
+                    </a>
+                </div>
+                <div class="col-12 col-lg-5" data-aos="fade-left">
+                    <p class="lead text-secondary" style="
+                    font-weight: 500;
+                    font-size: max(3.2vw, 24px);
+                    padding-bottom: 16px;
+                    ">
+                    TileBound: Sweep. Survive. Evolve.
+                    </p>
+
+                    <hr />
+                    <br />
+
+                    <a href="https://agrmayank.itch.io/tilebound" class="btn btn-xl btn-light">View Details
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
@@ -77,11 +112,11 @@ class Games extends HTMLElement {
 
             <!-- Atomica -->
 
-            <div class="bg-dark">
+            <div class="bg-black">
             <div class="container px-vw-5 py-vh-5">
                 <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
-                    <a href="img/games/Atomica/Atomica Banner GIF.gif" data-lightbox="TimeBound" data-title="TimeBound Cover">
+                    <a href="img/games/Atomica/Atomica Banner GIF.gif" data-lightbox="Atomica" data-title="Atomica Cover">
                     <img src="img/games/Atomica/Atomica Banner GIF.gif" width="2280" height="1732"
                         alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
                     </a>
@@ -98,7 +133,42 @@ class Games extends HTMLElement {
                     <hr />
                     <br />
 
-                    <a href="https://akamaestro.itch.io/atomica" class="btn btn-xl btn-light">Visit Website
+                    <a href="https://akamaestro.itch.io/atomica" class="btn btn-xl btn-light">View Details
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- RetroBellion -->
+
+            <div class="bg-dark">
+            <div class="container px-vw-5 py-vh-5">
+                <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+                    <a href="img/games/RetroBellion/RetroBellion GIF.gif" data-lightbox="RetroBellion" data-title="RetroBellion Cover">
+                    <img src="img/games/RetroBellion/RetroBellion GIF.gif" width="2280" height="1732"
+                        alt="abstract image" class="img-fluid position-relative rounded-5 shadow" data-aos="fade-up" />
+                    </a>
+                </div>
+                <div class="col-12 col-lg-5" data-aos="fade-left">
+                    <p class="lead text-secondary" style="
+                    font-weight: 500;
+                    font-size: max(3.2vw, 24px);
+                    padding-bottom: 16px;
+                    ">
+                    RetroBellion
+                    </p>
+
+                    <hr />
+                    <br />
+
+                    <a href="https://agrmayank.itch.io/retrobellion" class="btn btn-xl btn-light">View Details
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-arrow-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
