@@ -88,16 +88,20 @@ class Footer extends HTMLElement {
                             class="link-fancy link-fancy-light">TimeBound</a>
                         </li>
                         <li class="nav-item">
+                        <a href="https://agrmayank.itch.io/tilebound" target="_blank" rel="noopener"
+                            class="link-fancy link-fancy-light">TileBound</a>
+                        </li>
+                        <!-- <li class="nav-item">
                         <a href="https://agrmayank.itch.io/shapebound" target="_blank" rel="noopener"
                             class="link-fancy link-fancy-light">ShapeBound</a>
+                        </li> -->
+                        <li class="nav-item">
+                        <a href="https://akamaestro.itch.io/atomica" target="_blank" rel="noopener"
+                        class="link-fancy link-fancy-light">Atomica</a>
                         </li>
                         <li class="nav-item">
                         <a href="https://agrmayank.itch.io/retrobellion" target="_blank" rel="noopener"
                             class="link-fancy link-fancy-light">RetroBellion</a>
-                        </li>
-                        <li class="nav-item">
-                        <a href="https://akamaestro.itch.io/atomica" target="_blank" rel="noopener"
-                            class="link-fancy link-fancy-light">Atomica</a>
                         </li>
                     </ul>
                     </div>
