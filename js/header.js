@@ -43,9 +43,9 @@ class Header extends HTMLElement {
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link fs-5" href="pitchdeck.html" aria-label="Pitch Deck">
+                    <!--<a class="nav-link fs-5" href="pitchdeck.html" aria-label="Pitch Deck">
                         Pitchdeck
-                    </a>
+                    </a>-->
                     </li>
                 </ul>
 
